@@ -1,5 +1,7 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+mvnw.cmd
+mvnw
 
 ### STS ###
 .apt_generated
@@ -12,6 +14,7 @@
 
 ### IntelliJ IDEA ###
 .idea
+.mvn
 *.iws
 *.iml
 *.ipr
