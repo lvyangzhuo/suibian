@@ -11,9 +11,15 @@ import com.example.suibian.enums.TipEnum;
  */
 public class ErrorTip extends Tip {
 
-    public ErrorTip(int code, String message) {
+    public ErrorTip() {
         super();
         this.code = TipEnum.ERROR.code();
         this.message = TipEnum.ERROR.msg();
+    }
+
+    public ErrorTip(TipEnum tipEnum) {
+        super();
+        this.code = tipEnum.code();
+        this.message = tipEnum.msg();
     }
 }
