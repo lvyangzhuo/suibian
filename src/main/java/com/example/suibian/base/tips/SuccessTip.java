@@ -14,7 +14,6 @@ public class SuccessTip<T> extends Tip {
 	public SuccessTip(){
 		super.code = TipEnum.SUCCESS.code();
 		super.message = TipEnum.SUCCESS.msg();
-		super.data = null;
 	}
 
 	public SuccessTip(T data){
