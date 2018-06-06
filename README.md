@@ -17,6 +17,7 @@
 * mysql 开源数据库
 * react 前端开源 JavaScript MVC 框架
 
+```Java
 |--sql sql文件
 |--src
     |--main 
@@ -39,5 +40,5 @@
 |--.gitignore git忽略规则配置文件
 |--pom.xml maven配置文件
 |--README.md github说明文件
-    
+```
 
