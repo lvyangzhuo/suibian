@@ -25,6 +25,10 @@ public class BaseController {
         return new ErrorTip(tipEnum);
     }
 
+    protected static SuccessTip SUCCESS_TIP(Object t) {
+        return new SuccessTip(t);
+    }
+
     /**
      * 客户端重定向
      *
