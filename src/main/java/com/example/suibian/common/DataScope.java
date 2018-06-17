@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 数据范围
  *
- * @author fengshuonan
+ * @author lyz
  * @date 2017-07-23 22:19
  */
 public class DataScope {

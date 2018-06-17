@@ -35,7 +35,7 @@ public class ToolUtil {
     /**
      * 获取随机位数的字符串
      *
-     * @author fengshuonan
+     * @author lyz
      * @Date 2017/8/24 14:09
      */
     public static String getRandomString(int length) {
@@ -52,7 +52,7 @@ public class ToolUtil {
     /**
      * 获取异常的具体信息
      *
-     * @author fengshuonan
+     * @author lyz
      * @Date 2017/3/30 9:21
      * @version 2.0
      */
@@ -464,7 +464,7 @@ public class ToolUtil {
     /**
      * 把一个数转化为int
      *
-     * @author fengshuonan
+     * @author lyz
      * @Date 2017/11/15 下午11:10
      */
     public static Integer toInt(Object val) {
